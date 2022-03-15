@@ -14,6 +14,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <vector>
 
 //=======================================================================================
 /*! \class RemDup
@@ -37,7 +38,7 @@ public:
 
 private:
 
-    //! List of private variables.
+    int removeDuplicates(std::vector<int>& nums);
 
 };
 //=======================================================================================
