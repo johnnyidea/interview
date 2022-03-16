@@ -78,6 +78,7 @@ text=$(cat <<-END
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <vector>
 
 //=======================================================================================
 /*! \class $CLASS_NAME
@@ -125,6 +126,8 @@ text=$(cat <<-END
 //=======================================================================================
 
 #include "$lower_case.h"
+
+#include <cassert>
 
 using namespace std;
 
