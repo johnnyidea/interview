@@ -71,12 +71,11 @@ void RotArr::_rotate(vector<int> &nums, int k)
 void RotArr::run()
 {
     vector<int> nums{1,2,3,4,5,6,7};
-
     _rotate(nums, 3);
 
     vector<int> res {5,6,7,1,2,3,4};
-//    for (int i = 0; i < nums.size(); i++)
-//        assert(nums[i] == res[i]);
+    for (int i = 0; i < nums.size(); i++)
+        assert(nums[i] == res[i]);
 
 
     nums = {-1,-100,3,99};
