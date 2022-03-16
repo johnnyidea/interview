@@ -2,6 +2,7 @@
 
 #include "time_sell_buy.h"
 #include "rem_dup.h"
+#include "rot_arr.h"
 
 using namespace std;
 int main()
@@ -10,7 +11,10 @@ int main()
 //    remDup.run();
 
     TimeSellBuy timeSellBuy;
-    timeSellBuy.run();
+//    timeSellBuy.run();
+
+    RotArr rotArr;
+    rotArr.run();
 
 	return 0;
 }
