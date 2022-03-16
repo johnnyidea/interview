@@ -1,8 +1,10 @@
 #include <iostream>
+#include <set>
 
 #include "time_sell_buy.h"
 #include "rem_dup.h"
 #include "rot_arr.h"
+#include "single_num.h"
 
 using namespace std;
 int main()
@@ -14,7 +16,10 @@ int main()
 //    timeSellBuy.run();
 
     RotArr rotArr;
-    rotArr.run();
+//    rotArr.run();
 
-	return 0;
+    SingleNum singleNum;
+	singleNum.run();
+
+    return 0;
 }
