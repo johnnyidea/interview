@@ -7,6 +7,7 @@ include (${CMAKE_CURRENT_SOURCE_DIR}/rem_dup/rem_dup.cmake)
 include (${CMAKE_CURRENT_SOURCE_DIR}/time_sell_buy/time_sell_buy.cmake)
 include (${CMAKE_CURRENT_SOURCE_DIR}/rot_arr/rot_arr.cmake)
 include (${CMAKE_CURRENT_SOURCE_DIR}/single_num/single_num.cmake)
+include (${CMAKE_CURRENT_SOURCE_DIR}/inter_sec/inter_sec.cmake)
 
 add_executable( ${PROJECT_NAME} 
                 main.cpp
@@ -14,4 +15,5 @@ add_executable( ${PROJECT_NAME}
                 ${TIME_SELL_BUY}
                 ${ROT_ARR}
                 ${SINGLE_NUM}
+                ${INTER_SEC}
               )
