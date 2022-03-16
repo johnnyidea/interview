@@ -1,3 +1,4 @@
+#include "inter_sec.h"
 #include <iostream>
 #include <set>
 
@@ -19,7 +20,10 @@ int main()
 //    rotArr.run();
 
     SingleNum singleNum;
-	singleNum.run();
+//	singleNum.run();
+
+    InterSec interSec;
+    interSec.run();
 
     return 0;
 }
