@@ -1,0 +1,7 @@
+# SingleNum
+
+---
+
+** Task description. **
+
+---
